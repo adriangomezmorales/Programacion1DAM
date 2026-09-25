@@ -1,0 +1,28 @@
+/*Dado el siguiente polinomio de segundo grado:
+y=ax2+bx+c
+Crea un programa que pida los coeficientes a, b y c, 
+así como el valor de x, y calcula el valor correspondiente de y.
+NO HAY QUE RESOLVER LA ECUACIÓN, SÓLO SUSTITUIR LOS VALORES
+*/
+package ejercicios.parte2;
+
+import java.util.Scanner;
+
+public class Ejercicio04 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Dado el polimonio y=ax2+bx+c, indica los siguientes valores:");
+		System.out.print("Valor de a =");
+		Double a = sc.nextDouble();
+		System.out.print("\nValor de b =");
+		Double b = sc.nextDouble();
+		System.out.print("\nValor de c =");
+		Double c = sc.nextDouble();
+		System.out.print("\nValor de x =");
+		Double x = sc.nextDouble();
+		
+		Double y = a*(x*x)+b*x+c ;
+		System.out.println("En el polimonio y="+(a)+(x)+"2"+(b)+(x)+c"+"Y = "+y);
+		sc.close();
+	}
+}

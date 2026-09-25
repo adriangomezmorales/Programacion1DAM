@@ -1,8 +1,0 @@
-/* Escribe un programa en el que declares una constante IVA de valor igual a 21. A continuación, pídele un precio al usuario (recuerda que los precios contienen decimales) y calcula cuál será el precio final con el IVA aplicado.
- * 
- */
-package ejercicios.parte1;
-
-public class Ejercicio15 {
-
-}

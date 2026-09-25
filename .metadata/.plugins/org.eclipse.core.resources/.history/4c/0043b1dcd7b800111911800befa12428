@@ -1,0 +1,12 @@
+/*Realizar un programa que pida como entrada un número con decimales
+ * y lo muestre redondeado al entero más próximo.
+ * (SIN UTILIZAR Math.round())
+ */
+
+package ejercicios.parte2;
+
+public class Ejercicio01 {
+	public static void main(String[] args) {
+		
+	}
+}

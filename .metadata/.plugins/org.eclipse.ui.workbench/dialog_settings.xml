@@ -3,7 +3,7 @@
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="10"/>
 		<item key="DIALOG_Y_ORIGIN" value="10"/>
-		<item key="DIALOG_WIDTH" value="853"/>
+		<item key="DIALOG_WIDTH" value="1017"/>
 		<item key="DIALOG_HEIGHT" value="981"/>
 		<item key="DIALOG_FONT_NAME" value="1|Cantarell|11.0|0|GTK|1|"/>
 	</section>
@@ -17,8 +17,9 @@
 	</section>
 	<section name="ZipFileExportWizard">
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
-		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="false"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/home/adrian/Untitled.zip"/>
 			<item value="/home/adrian/programacionTema1Programacion/Untitled.zip"/>
 		</list>
 		<section name="ZipFileExportWizard.dialogBounds">

@@ -1,0 +1,23 @@
+/*Realizar un programa que pida como entrada un número con decimales
+ * y lo muestre redondeado al entero más próximo.
+ * (SIN UTILIZAR Math.round())
+ */
+
+package ejercicios.parte2;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Indica un número con decimales: ");
+		
+		Double numeroDecimal = (sc.nextDouble())+0.5;
+		
+		Integer numeroRedondeado = numeroDecimal.intValue();
+		
+		System.out.println("\nEl valor de "+numeroDecimal+" redondeando es "+numeroRedondeado);
+		sc.close();
+		
+	}
+}
