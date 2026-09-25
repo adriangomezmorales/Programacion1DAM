@@ -22,7 +22,7 @@ public class Ejercicio04 {
 		Double x = sc.nextDouble();
 		
 		Double y = a*(x*x)+b*x+c ;
-		System.out.println("En el polimonio y="+(a)+"*"+(x)+"^2+"+"+"+(b)+"*"+(x)+"+"+c+" \nY = "+y);
+		System.out.println("En el polimonio y="+(a)+"*"+(x)+"^2+"+""+(b)+(x)+"+"+c+" \nY = "+y);
 		sc.close();
 	}
 }
