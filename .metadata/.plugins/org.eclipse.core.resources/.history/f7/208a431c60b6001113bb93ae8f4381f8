@@ -1,0 +1,23 @@
+/*Escribir una aplicación que pida el año actual y
+ *  el año de nacimiento del usuario. Debe calcular su edad.
+
+ */
+package ejercicio1;
+
+import java.util.Scanner;
+
+
+public class CalcularEdad {
+
+	public static void main(String[] args) {
+		System.out.print("Indica tu año de nacimiento: ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Integer birthYear = sc.nextInt();
+		
+		System.out.print("\nIndica el año actual: ");
+		Integer thisYear =  sc.nextInt();
+		System.out.println("\nTienes "+(thisYear-birthYear)+" años");
+	}
+}

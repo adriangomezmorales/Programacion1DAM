@@ -1,0 +1,27 @@
+/*Realiza un conversor de pesetas a euros.
+ * Para ello, pídele al usuario que te introduzca el valor en pesetas 
+ * y, a posteriori, debes mostrarle el resultado de la conversión.
+ * (1€ = 166 ptas).
+ * x€	500pts
+ * 
+ */
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio11 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Introduce un valor en pesetas: ");
+		
+		Integer pesetas = sc.nextInt();
+				
+		Double euros = ((double)pesetas )/166;
+		
+		System.out.println(pesetas+" son "+euros+" €");
+		
+		sc.close();
+		
+	}
+}

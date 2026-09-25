@@ -1,0 +1,20 @@
+/*Diseñar una aplicación que calcule la longitud
+ * y el área de una circunferencia.
+ * Para ello, el usuario debe introducir el radio,
+ * que puede contener decimales.
+ * Usa Math.PI para tomar el valor de PI.
+ * (longitud = 2πr, área=πr2)
+ */
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio5 {
+	public static void main(String[] args) {
+		Double numeroPi = Math.PI;
+		
+		
+		System.out.print("Indica el radio de la circuferencia: ");
+		
+	}
+}

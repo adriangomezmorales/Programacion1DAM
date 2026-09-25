@@ -1,0 +1,39 @@
+/*Escribir un programa que le pida al usuario su nombre, dirección 
+ * y teléfono. Guarda cada dato en variables distintas.
+ * A continuación, muestra los datos de la siguiente forma:
+
+Nombre: Elena
+Dirección: Calle Inventada
+Teléfono: 987654321
+
+
+*/
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio7 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Nombre: ");
+		String nombre = sc.nextLine();
+		
+		System.out.print("\nDirección: ");
+		String direccion = sc.nextLine();
+		
+		System.out.println("\nTeléfono: ");
+		Integer telefono = sc.nextInt();
+		
+		System.out.println(
+			"Nombre: "+nombre+"\n"+
+			"Dirección"
+				
+				
+				);
+		
+		
+		
+	}
+}

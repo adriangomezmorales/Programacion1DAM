@@ -1,0 +1,22 @@
+// Diseña un programa que pida un número al 
+// usuario y a continuación lo muestre.
+
+package ejercicio2;
+
+//Importante importar java.util.Scanner para que funcione el Scanner
+import java.util.Scanner;
+
+public class PedirMostrar {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//Pedir numero al usuario
+		System.out.print("Introduce un número real: ");
+		Integer numero = sc.nextInt();
+		
+		//Imprimir numero 
+		System.out.println("\nHas introducido el número real: "+numero);
+		
+	}
+}

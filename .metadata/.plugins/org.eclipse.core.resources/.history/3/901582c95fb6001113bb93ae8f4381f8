@@ -1,0 +1,20 @@
+/* Pedir al usuario su edad y mostrar la edad 
+que tendrá el próximo año. */
+
+package ejercicio2;
+
+import java.util.Scanner;
+
+public class CalcularEdadAnioQueViene {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in); //No poner el new en mayus
+		
+		System.out.print("¿Cúal es tu edad? ");
+		
+		Integer futuraEdad = 1; //Incializado a uno para el año que viene
+		futuraEdad += sc.nextInt(); //+= igual a variable=variable+1
+		
+		System.out.println("\nEl año que viene tendrás: "+futuraEdad);
+	}
+}

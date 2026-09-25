@@ -1,0 +1,19 @@
+/*Escribir un programa que le pida dos números al usuario.
+ * A continuación, debe mostrar la suma, la resta, la multiplicación
+ * y la división de ambos números.
+ * Debe mostrarse el resultado de cada operación en una línea distinta.
+ */
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio6 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Introduce un número: ");
+		Double primerNumero = sc.nextDouble();
+		System.out.print("\nIntroduce otro número: ");
+		Double segundoNumero = sc.nextDouble();
+	}
+}

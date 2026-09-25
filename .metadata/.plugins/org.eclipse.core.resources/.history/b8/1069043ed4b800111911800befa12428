@@ -1,0 +1,17 @@
+/* Escribe un programa en el que declares una constante IVA
+ * de valor igual a 21. A continuación, pídele un precio al usuario
+ * (recuerda que los precios contienen decimales) y calcula cuál
+ * será el precio final con el IVA aplicado.
+ * 
+ */
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio15 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Integer IVA = 21;
+		sc.close()
+	}
+}

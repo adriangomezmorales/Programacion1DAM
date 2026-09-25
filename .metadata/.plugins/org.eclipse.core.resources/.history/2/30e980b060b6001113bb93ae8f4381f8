@@ -1,0 +1,14 @@
+/* Diseña un programa que pida un número al usuario y a
+ continuación lo muestre. */
+
+package ejercicio1;
+
+import java.util.scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		System.out.println();
+	}
+}

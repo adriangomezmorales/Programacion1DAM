@@ -1,0 +1,19 @@
+/* Diseña un programa que pida un número al usuario y a
+ continuación lo muestre. */
+
+package ejercicio1;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new scanner(System.in);
+		
+		System.out.print("Indica un número:  ");
+		
+		Integer 
+		
+	}
+}

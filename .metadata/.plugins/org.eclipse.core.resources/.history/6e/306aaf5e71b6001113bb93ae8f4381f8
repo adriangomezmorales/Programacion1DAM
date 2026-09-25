@@ -1,0 +1,26 @@
+/*Escribe un programa que pida al usuario su nombre y su edad
+ * y muestre por pantalla un mensaje como el siguiente:
+ * “Hola Juanito, tienes 21 años, ¡qué mayor eres!”. 
+ */
+package ejercicios.parte1;
+
+import java.util.Scanner;
+
+public class Ejercicio8 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("¿Cómo te llamas? ");
+		String nombre = sc.nextLine();
+		
+		System.out.print("\n¿Cuantos años tienes? ");
+		Integer edad = sc.nextInt();
+		
+		System.out.print("\nHola "+nombre+" tienes "+edad+" años, ");
+		if(edad>18){
+			System.out.println("¡qué mayor eres!");
+		}else {
+			System.out.println("¡qué pequeño eres!");
+		}
+	}
+}

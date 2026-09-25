@@ -1,0 +1,8 @@
+/*Escribir un programa que pida un número al usuario e
+ * indique mediante un literal booleano (true o false) si el número es par.
+ */
+package ejercicios.parte1;
+
+public class Ejercicio10 {
+
+}
