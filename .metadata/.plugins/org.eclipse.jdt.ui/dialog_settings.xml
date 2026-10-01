@@ -25,7 +25,7 @@
 		<item key="DIALOG_X_ORIGIN" value="10"/>
 		<item key="DIALOG_Y_ORIGIN" value="10"/>
 		<item key="DIALOG_WIDTH" value="644"/>
-		<item key="DIALOG_HEIGHT" value="745"/>
+		<item key="DIALOG_HEIGHT" value="707"/>
 		<item key="DIALOG_FONT_NAME" value="1|Cantarell|11.0|0|GTK|1|"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
