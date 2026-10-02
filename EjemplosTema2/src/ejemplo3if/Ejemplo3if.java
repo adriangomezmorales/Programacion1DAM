@@ -9,8 +9,10 @@ public class Ejemplo3if {
 			if( mes==1 || mes==3|| mes==5||mes==7||mes==8 || mes==10||mes==12) {
 				dias = 31;
 			}else if(mes==2) {
-				if(a%4==00) {
+				if(a%400==0 || a%100!=0 && a%4==0) {
 					dias=29;
+				}else{
+					dias = 28;
 				}
 			}else {
 				dias=30;
@@ -19,9 +21,7 @@ public class Ejemplo3if {
 
 		}
 		System.out.println("fin");
-		}
-		
-		
+		}		
 	}
 
 
