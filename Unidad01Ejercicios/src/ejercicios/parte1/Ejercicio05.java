@@ -11,15 +11,15 @@ import java.util.Scanner;
 
 public class Ejercicio05 {
 	public static void main(String[] args) {
-		Double numeroPi = Math.PI;
+		final Double NUMERO_PI = Math.PI;
 		Scanner sc = new Scanner(System.in);
 		Double longitud, area;
 		
 		System.out.print("Indica el radio de la circuferencia: ");
 		Double radio = sc.nextDouble();
 		
-		longitud = (2*numeroPi)*radio;
-		area = numeroPi * (radio*radio);
+		longitud = (2*NUMERO_PI)*radio;
+		area = NUMERO_PI * (radio*radio);
 		
 		System.out.println("\nLa longitud es de "+longitud+" y el área es de "+area);
 		sc.close();
