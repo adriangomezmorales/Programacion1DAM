@@ -28,10 +28,5 @@ public class Listas {
 		}
 		return suma;
 	}
-	public static Integer pasosLaberinto(List<Integer> pasos) {
-		while() {
-			
-		}
-		
-	}
 }
+
