@@ -16,6 +16,7 @@ public class Exercise01 {
 		System.out.println("Fine thanks.");
 		}
 }
+
 // What is the output after executing this code?
 // R: Hello, how are you? Fine thanks.
 
