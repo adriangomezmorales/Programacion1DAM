@@ -10,4 +10,9 @@
     <fullyQualifiedTypeName name="jdk.internal.org.commonmark.internal.util.Escaping"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="test.TestEjercicios"/>
+    <fullyQualifiedTypeName name="utiles.Utiles"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="ejercicios.Ejercicios"/>
+    <fullyQualifiedTypeName name="utiles.Util"/>
 </qualifiedTypeNameHistroy>
