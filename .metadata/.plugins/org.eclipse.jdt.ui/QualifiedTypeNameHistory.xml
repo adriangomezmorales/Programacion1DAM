@@ -15,4 +15,9 @@
     <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="ejercicios.Ejercicios"/>
     <fullyQualifiedTypeName name="utiles.Util"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="tipos.Persona"/>
+    <fullyQualifiedTypeName name="tipos.Genero"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

@@ -40,6 +40,11 @@ public class TestEjercicios {
 		System.out.println(Ejercicios.esCrecienteLista(lista1al20));
 		System.out.println(Ejercicios.esCrecienteLista(List.of(3,7,3,19,3)));
 		System.out.println(Ejercicios.sumaEntrePrimosEnLista(List.of(3,8,2,4,2)));
+		
+		System.out.println("\n### TEST DE MAXIMO Y MINIMO ###");
+		System.out.println(Ejercicios.maximoMinimoLista(List.of(3,8,2,4,2),true));
+		System.out.println(Ejercicios.maximoMinimoLista(List.of(3,8,2,4,2),false));
+
 
 		
 

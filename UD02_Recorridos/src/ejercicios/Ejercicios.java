@@ -1,7 +1,7 @@
 package ejercicios;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.List;
 
 import utiles.Util;
@@ -142,23 +142,39 @@ public class Ejercicios {
 
 	public static Integer sumaEntrePrimosEnLista(List<Integer> lista) {
 		Integer suma = 0;
-		for (int i = 1; i < lista.size()-1; i++) {
-			Integer antes = lista.get(i-1);
-			Integer despues = lista.get(i+1);
-			if(Util.esPrimo(antes)&&Util.esPrimo(despues)) {
-				suma+=lista.get(i);
+		for (int i = 1; i < lista.size() - 1; i++) {
+			Integer antes = lista.get(i - 1);
+			Integer despues = lista.get(i + 1);
+			if (Util.esPrimo(antes) && Util.esPrimo(despues)) {
+				suma += lista.get(i);
 			}
 		}
 		return suma;
 	}
-	
-	public static List<Integer> seleccionarPrimosLista(List<Integer> lista){
+
+	public static List<Integer> seleccionarPrimosLista(List<Integer> lista) {
 		List<Integer> devolver = new ArrayList<>();
 		for (Integer integer : lista) {
-			if(Util.esPrimo(integer)) {
+			if (Util.esPrimo(integer)) {
 				devolver.add(integer);
 			}
 		}
 		return devolver;
+	}
+
+	// ##### MAXIMO Y MINIMO ####
+	public static Integer maximoMinimoLista(List<Integer> lista, Boolean maximo) {
+		
+		List<Integer> copia = new ArrayList<>(lista);
+		Collections.sort(copia);
+		
+		Integer res = -1;
+		if (maximo) {
+			res = copia.getLast();
+		} else {
+			res = copia.getFirst();
+		}
+
+		return res;
 	}
 }
